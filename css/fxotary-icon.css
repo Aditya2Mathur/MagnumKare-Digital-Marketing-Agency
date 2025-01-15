@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "fx-Icon";
+  src: url("../fonts/fx-Icond5bd.eot?fb5uln");
+  src: url("../fonts/fx-Icond5bd.eot?fb5uln#iefix") format("embedded-opentype"),
+    url("../fonts/fx-Icond5bd.ttf?fb5uln") format("truetype"),
+    url("../fonts/fx-Icond5bd.woff?fb5uln") format("woff"),
+    url("../fonts/fx-Icond5bd.svg?fb5uln#Fx-Icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fx-icon-"],
+[class*=" fx-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "fx-Icon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fx-icon-next-arrow:before {
+  content: "\e902";
+}
+.fx-icon-long-next-arrow:before {
+  content: "\e904";
+}
+.fx-icon-down-arrow:before {
+  content: "\e900";
+}
+.fx-icon-long-arrow:before {
+  content: "\e901";
+}
+.fx-icon-megaphone:before {
+  content: "\e903";
+}
+.fx-icon-quote-1:before {
+  content: "\e905";
+}
+.fx-icon-quote-2:before {
+  content: "\e906";
+}
+.fx-icon-start-shap:before {
+  content: "\e907";
+}
+.fx-icon-straight-quotes:before {
+  content: "\e908";
+}
+.fx-icon-ui-ux:before {
+  content: "\e909";
+}
+.fx-icon-web-programming:before {
+  content: "\e90a";
+}
