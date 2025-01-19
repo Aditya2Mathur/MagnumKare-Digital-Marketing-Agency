@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "subject",
           "message",
         ];
+        console.log(requiredFields.values)
         var allFieldsValid = !0;
         requiredFields.forEach(function (fieldName) {
           var field = document.getElementById(fieldName);
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
           .then((response) => {
             if (response.ok) {
               document.getElementById("alertMessage").innerText =
-                "Message Sent Successfully!";
+                "Message Sent Successfully, Our Team Contact Soon";
               setTimeout(function () {
                 form.reset();
                 document.getElementById("alertMessage").innerText =
