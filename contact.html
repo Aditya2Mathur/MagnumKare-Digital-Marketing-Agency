@@ -142,39 +142,42 @@
             </div>
           </div>
         </div>
-        <form class="tf__contact_form tf__contact_page_form">
+        <form class="tf__contact_form tf__contact_page_form" method="post" action="https://script.google.com/macros/s/AKfycbyTR20e6Hsk0mIxFsMhk0wUrlezPz_reL237y32c_PyjDz51HD_6biGQO_lRNHIf9Mq-w/exec">
           <div class="row">
             <div class="col-md-6">
               <div class="tf__contact_form_imput">
-                <label>First Name:</label>
-                <input type="text" placeholder="e.g. Willy" />
+                <label>Full Name:</label>
+                <input type="text" name="full_name" id="full_name" placeholder="e.g. Mr. Gaurav Mishra" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="tf__contact_form_imput">
                 <label>Email:</label>
-                <input type="email" placeholder="e.g. youremail@gmail.com" />
+                <input type="email" name="email" id="email" placeholder="e.g. youremail@gmail.com" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="tf__contact_form_imput">
                 <label>Phone:</label>
-                <input type="text" placeholder="e.g. +8801" />
+                <input type="text" name="phone_no" id="phone_no" placeholder="e.g. +91 88888 88888" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="tf__contact_form_imput">
                 <label>subject:</label>
-                <input type="text" placeholder="e.g. I need help" />
+                <input type="text" name="subject" id="subject" placeholder="e.g. I need help" />
               </div>
             </div>
             <div class="col-xl-12">
               <div class="tf__contact_form_imput">
                 <label>Message:</label>
-                <textarea
+                <textarea name="message" id="message"
                   rows="4"
                   placeholder="e.g. you need any help"
                 ></textarea>
+              </div>
+              <div class="tf__contact_form_imput">
+                <p id="alertMessage"></p>
               </div>
               <button
                 class="circle_btn circle_btn_2 learn_more_2"
@@ -325,6 +328,7 @@
     <script src="js/plugin.js"></script>
     <script src="js/animation.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
   </body>
 
 <!-- Mirrored from fxotary.netlify.app/contact by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Jan 2025 17:48:42 GMT -->
