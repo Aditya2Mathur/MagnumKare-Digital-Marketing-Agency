@@ -42,7 +42,7 @@ Magnumkare is a leading digital marketing agency based in India, offering a wide
 ## Contact
 
 For any inquiries, please contact us at:
-- Email: [shahank@magnumkare.com](mailto:shahank@magnumkare.com)
+- Email: [vivek@magnumkare.com](mailto:vivek@magnumkare.com)
 - Phone: +91 87076 65217
 
 ## License
